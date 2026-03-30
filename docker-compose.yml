@@ -1,0 +1,7 @@
+services:
+  benchmark:
+    build: .
+    env_file:
+      - .env
+    volumes:
+      - ./results:/app/results
