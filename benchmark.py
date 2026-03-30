@@ -7,7 +7,7 @@ from datetime import datetime, timezone
 from openai import OpenAI
 
 BASE_URL = os.environ.get("SCW_BASE_URL", "").rstrip("/") + "/v1"
-NUM_RUNS = 5
+NUM_RUNS = 15
 PROMPT = "What is the capital of France?"
 SYSTEM_PROMPT = "You are a helpful assistant"
 OUTPUT_FILE = "results/benchmark_results.md"
